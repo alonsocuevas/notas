@@ -2,6 +2,7 @@ import fs from 'fs/promises'; // Importar la versión de promesas de fs
 import path from 'path';
 import { cache } from 'react';
 
+export type { NoteTree } from '@/types/notes';
 import { NoteTree } from '@/types/notes';
 
 const notesDirectory = path.join(process.cwd(), 'notes');
