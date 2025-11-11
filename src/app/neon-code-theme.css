@@ -1,0 +1,64 @@
+/* neon-theme.css */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+  background: #1a1a1a; /* Darker grey background */
+  color: #00ffcc; /* Bright cyan for default text */
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #888888; /* Muted color for comments */
+  font-style: italic;
+  text-shadow: none; /* No glow for comments */
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-name {
+  color: #ff00ff; /* Bright magenta for keywords */
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute {
+  color: #ffff00; /* Bright yellow for strings */
+}
+
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-symbol,
+.hljs-type,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta {
+  color: #00ffff; /* Bright aqua for numbers and built-ins */
+}
+
+.hljs-title,
+.hljs-section {
+  color: #00ccff; /* Bright blue for titles */
+}
+
+.hljs-deletion,
+.hljs-subst {
+  color: #ff6666; /* Reddish for deletions */
+}
+
+.hljs-addition {
+  color: #66ff66; /* Greenish for additions */
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}

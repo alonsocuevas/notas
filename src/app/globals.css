@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .prose {
+    --tw-prose-body: theme('colors.synth-light');
+    --tw-prose-headings: theme('colors.synth-cyan');
+    --tw-prose-lead: theme('colors.synth-pink');
+    --tw-prose-links: theme('colors.synth-pink');
+    --tw-prose-bold: theme('colors.synth-light');
+    --tw-prose-counters: theme('colors.synth-pink');
+    --tw-prose-bullets: theme('colors.synth-pink');
+    --tw-prose-hr: theme('colors.synth-purple');
+    --tw-prose-quotes: theme('colors.synth-pink');
+    --tw-prose-quote-borders: theme('colors.synth-purple');
+    --tw-prose-captions: theme('colors.synth-light');
+    --tw-prose-code: theme('colors.synth-cyan');
+    --tw-prose-pre-code: theme('colors.synth-cyan');
+    --tw-prose-pre-bg: theme('colors.synth-purple');
+    --tw-prose-th-borders: theme('colors.synth-purple');
+    --tw-prose-td-borders: theme('colors.synth-purple');
+  }
+  .prose p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  .prose ul, .prose ol {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  .prose li {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+}
+
+/* Remove box-shadow from pre and code elements */
+pre,
+code {
+  box-shadow: none !important;
+  text-shadow: none !important; /* Also remove text-shadow if present */
+}
+
+.prose blockquote {
+  border-left-width: 4px;
+  padding-left: 1rem;
+  font-style: italic;
+  background-color: rgba(128, 128, 128, 0.1) !important;
+  border-left-color: #808080 !important;
+}
+
+.prose blockquote > p > strong:first-child {
+  font-style: normal;
+}
+
+.prose .info-callout {
+  background-color: rgba(59, 130, 246, 0.1) !important;
+  border-left-color: #3b82f6 !important;
+}
+
+.prose .warning-callout {
+  background-color: rgba(245, 158, 11, 0.1) !important;
+  border-left-color: #f59e0b !important;
+}
+
+.prose .danger-callout {
+  background-color: rgba(239, 68, 68, 0.1) !important;
+  border-left-color: #ef4444 !important;
+}
+
+.prose pre {
+  box-shadow: none !important;
+  border: none !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+}
