@@ -32,3 +32,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# TypeScript local files (may be recreated by Next)
+next-env.d.ts
+tsconfig.json

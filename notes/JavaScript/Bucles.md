@@ -69,3 +69,5 @@ El bucle `while` es más directo. Es como un guardia que solo comprueba una co
 La parte más importante y peligrosa del `while` es que **tú** eres responsable de asegurarte de que la condición en algún momento se vuelva falsa.
 
 En el ejemplo, lo hacemos con `contador--`. En cada repetición, le restamos 1 al contador. Así, eventualmente llegará a 0, la condición `0 > 0` será falsa y el bucle terminará. Si olvidáramos la línea `contador--`, ¡el programa se quedaría atascado en un **bucle infinito**!
+
+Dime que esto es de color blanco

@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    color: orange;
+  }
   .prose {
-    --tw-prose-body: theme('colors.synth-light');
+    --tw-prose-body: orange;
     --tw-prose-headings: theme('colors.synth-cyan');
     --tw-prose-lead: theme('colors.synth-pink');
     --tw-prose-links: theme('colors.synth-pink');
@@ -17,9 +20,11 @@
     --tw-prose-captions: theme('colors.synth-light');
     --tw-prose-code: theme('colors.synth-cyan');
     --tw-prose-pre-code: theme('colors.synth-cyan');
-    --tw-prose-pre-bg: theme('colors.synth-purple');
+    --tw-prose-pre-bg: #1a1a1a;
     --tw-prose-th-borders: theme('colors.synth-purple');
     --tw-prose-td-borders: theme('colors.synth-purple');
+    --tw-prose-thead: theme('colors.synth-cyan');
+    --tw-prose-tbody: theme('colors.synth-cyan');
   }
   .prose p {
     margin-top: 0em;
@@ -40,6 +45,8 @@ pre,
 code {
   box-shadow: none !important;
   text-shadow: none !important; /* Also remove text-shadow if present */
+  border: none !important;
+  margin: 0 !important;
 }
 
 .prose blockquote {
@@ -69,9 +76,3 @@ code {
   border-left-color: #ef4444 !important;
 }
 
-.prose pre {
-  box-shadow: none !important;
-  border: none !important;
-  background-color: transparent !important;
-  padding: 0 !important;
-}

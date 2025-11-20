@@ -1,10 +1,10 @@
 # Switch
 
-La declaración 'switch' es útil cuando tienes una única variable
+<span style="color:orange">La declaración 'switch' es útil cuando tienes una única variable
 y quieres ejecutar diferentes bloques de código basados en su valor exacto.
-Es una alternativa más limpia a un 'if/else if/else' largo.
+Es una alternativa más limpia a un 'if/else if/else' largo.</span>
 
-Piensa en ello como un menú: dependiendo de la opción que elijas (el valor de la variable), obtienes un resultado diferente.
+<span style="color:orange">Piensa en ello como un menú: dependiendo de la opción que elijas (el valor de la variable), obtienes un resultado diferente.</span>
 
 Ejemplo: 
 
@@ -49,7 +49,7 @@ console.log("Un buen experimento: ¿Qué pasa si quitas un 'break'?");
 
 ```
 
-Vamos a desglosarlo:
+<span style="color:orange">Vamos a desglosarlo:</span>
 
 ```jsx
 switch (diaDeLaSemana) {
@@ -57,7 +57,7 @@ switch (diaDeLaSemana) {
 }
 ```
 
-- **`switch (diaDeLaSemana)`**: Le decimos a JavaScript que vamos a inspeccionar el valor de la variable `diaDeLaSemana`.
+- **`switch (diaDeLaSemana)`**: <span style="color:orange">Le decimos a JavaScript que vamos a inspeccionar el valor de la variable</span `diaDeLaSemana`.
 
 ```jsx
 case 1:
