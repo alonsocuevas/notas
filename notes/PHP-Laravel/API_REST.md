@@ -441,14 +441,3 @@ php artisan db:seed
 php artisan test
 php artisan serve
 ```
-
----
-
-## ¿Qué más quieres que haga ahora?
-
-- Puedo implementar el ejemplo mínimo en este workspace (crear modelo, migración, controlador, resource y request). 
-- Puedo generar un `docker-compose.yml` mínimo para ejecutar la app y la base de datos.
-- Puedo crear ejercicios prácticos con soluciones.
-
-Dime qué quieres que haga a continuación y lo implemento.
-
